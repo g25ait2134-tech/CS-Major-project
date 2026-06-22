@@ -1,0 +1,7 @@
+target/
+*.class
+report/results.csv
+report/*.png
+mermaid-filter.err
+.idea/
+*.iml
