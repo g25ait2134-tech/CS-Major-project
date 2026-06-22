@@ -41,3 +41,5 @@ if __name__ == "__main__":
     d = load(sys.argv[1])
     chart(d, "composeSchoolbook", "composeNucomp", "Composition: schoolbook vs NUCOMP", "compose_speedup.png")
     chart(d, "squareSchoolbook", "squareNudupl", "Squaring: schoolbook vs NUDUPL", "square_speedup.png")
+    chart(d, "expBinary", "expWnaf", "Exponentiation: binary vs wNAF", "exp_wnaf_speedup.png")
+    chart(d, "expBinary", "expWindowed", "Exponentiation: binary vs windowed", "exp_windowed_speedup.png")

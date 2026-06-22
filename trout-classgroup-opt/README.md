@@ -14,7 +14,7 @@ prove equivalence with a differential oracle, and benchmark with JMH.
 |---|---|---|---|
 | `cg-core` | `Bqf`, `GroupOps`, discriminant/form generators, partial-GCD, encoding helpers | A | implemented |
 | `cg-baseline` | Schoolbook compose/reduce/exp — the correctness oracle | B | **implemented & verified** |
-| `cg-opt` | NUCOMP/NUDUPL + windowed/multi exponentiation | C, D | **NUCOMP/NUDUPL are stubs (delegate to baseline)**; windowed exp implemented |
+| `cg-opt` | NUCOMP compose [DONE], NUDUPL squaring [DONE], windowed+wNAF exp [DONE] | C, D | all verified vs baseline oracle |
 | `cg-test` | Differential oracle + property/edge tests | E | implemented |
 | `cg-bench` | JMH benchmark harness | F | implemented |
 | `report/` | plotting + analysis (not a Maven module) | F | implemented |

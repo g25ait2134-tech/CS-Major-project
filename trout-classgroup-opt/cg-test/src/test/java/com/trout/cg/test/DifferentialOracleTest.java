@@ -6,6 +6,7 @@ import com.trout.cg.core.CgCore;
 import com.trout.cg.core.GroupOps;
 import com.trout.cg.opt.NucompGroupOps;
 import com.trout.cg.opt.WindowedExp;
+import com.trout.cg.opt.WnafExp;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -19,9 +20,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * The correctness backbone: the optimized NUCOMP/NUDUPL path must produce the
- * IDENTICAL reduced form as the schoolbook baseline. While NucompGroupOps still
- * delegates to the baseline these pass trivially; once Person C implements real
- * NUCOMP they become the real proof of correctness. Keep them green at all times.
+ * IDENTICAL reduced form as the schoolbook baseline. NUCOMP (Cohen 5.4.9) and
+ * NUDUPL are real implementations, so these tests are the proof of correctness.
+ * Forms are built from several distinct prime generators so both the gcd==1 and
+ * gcd>1 branches (and the z==0 / z>0 partial-reduction cases) get exercised.
+ * Keep them green at all times.
  */
 class DifferentialOracleTest {
 
@@ -36,9 +39,20 @@ class DifferentialOracleTest {
         D = CgCore.genDiscriminant(256, new SecureRandom(new byte[]{7,7,7,7}));
         base = new SchoolbookGroupOps(D);
         opt = new NucompGroupOps(base);
-        Bqf gen = base.reduce(CgCore.smallForm(D, 6000));
-        Bqf cur = gen;
-        for (int i = 0; i < 60; i++) { cur = base.compose(cur, gen); forms.add(cur); }
+
+        // several distinct prime-form generators -> generic composites
+        List<Bqf> gens = new ArrayList<>();
+        for (int cap = 2000; gens.size() < 8 && cap <= 200000; cap *= 2) {
+            Bqf g = CgCore.smallForm(D, cap);
+            if (g != null) { Bqf rg = base.reduce(g); if (!gens.contains(rg)) gens.add(rg); }
+        }
+        Random r = new Random(99);
+        for (int i = 0; i < 60; i++) {
+            Bqf cur = gens.get(r.nextInt(gens.size()));
+            int steps = 2 + r.nextInt(25);                 // varied size -> large a, z>0
+            for (int j = 0; j < steps; j++) cur = base.compose(cur, gens.get(r.nextInt(gens.size())));
+            forms.add(cur);
+        }
     }
 
     @Test void compositionMatchesBaseline() {
@@ -75,4 +89,21 @@ class DifferentialOracleTest {
         assertTrue(base.eq(base.exp(x, BigInteger.ZERO), id));     // x^0 = 1
         assertTrue(base.eq(base.exp(x, BigInteger.ONE), x));       // x^1 = x
     }
+
+    @Test void nuduplMatchesBaselineSquare() {
+        for (Bqf x : forms) {
+            assertTrue(base.eq(base.square(x), opt.square(x)), "NUDUPL != baseline square");
+        }
+    }
+
+    @Test void wnafMatchesBinary() {
+        WnafExp we = new WnafExp(4);
+        java.util.Random r = new java.util.Random(3);
+        for (int i = 0; i < 100; i++) {
+            Bqf x = forms.get(r.nextInt(forms.size()));
+            BigInteger k = BigInteger.valueOf(Math.abs(r.nextLong()));
+            assertTrue(base.eq(base.exp(x, k), we.exp(base, x, k)), "wNAF != binary k=" + k);
+        }
+    }
+
 }
