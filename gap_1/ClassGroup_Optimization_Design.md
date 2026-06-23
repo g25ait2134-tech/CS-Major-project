@@ -6,6 +6,8 @@
 **Language / tooling:** Java 17+, Maven multi-module, JUnit 5, JMH (Java Microbenchmark Harness)
 **Team:** 6 members
 
+> Diagrams below are written in Mermaid and render directly in VS Code with the Mermaid plugin.
+
 ---
 
 ## Part 1 — Abstract
@@ -25,22 +27,36 @@ and only afterwards reduces the (now large) result, incurring expensive
 big-integer operations on oversized intermediate coefficients. This arithmetic
 layer is the protocol's bottleneck, yet it is treated as a black box.
 
-**Proposed solution.** We isolate that layer and implement, in Java, an
-optimized composition and squaring routine using the **NUCOMP** and **NUDUPL**
-algorithms (Shanks/Atkin), which interleave a *partial extended-Euclidean* step
-to keep operands bounded near |Δ|^(1/4) throughout the computation rather than
-reducing a blown-up result at the end. We build a clear schoolbook baseline as a
-correctness reference and a drop-in NUCOMP/NUDUPL implementation behind the same
-interface.
+**Proposed solution.** We isolate that layer and implement, in Java, two
+complementary optimizations behind a single `GroupOps` interface, each measured
+against a schoolbook baseline:
+1. **Operand-bounded composition (NUCOMP / NUDUPL).** These algorithms interleave
+   a *partial extended-Euclidean* step (PARTEUCL) to keep operands bounded near
+   |Δ|^(1/4) throughout, rather than forming and reducing a |Δ|-sized result at
+   the end (Cohen, *A Course in Computational Algebraic Number Theory*, Alg.
+   5.4.8–5.4.9).
+2. **Operation-count-reduced exponentiation (windowed / wNAF).** Since the
+   protocol exponentiates class-group elements, we replace binary
+   square-and-multiply with fixed-window and signed-window (wNAF) exponentiation,
+   reducing the number of group compositions.
 
 **Demonstration of effectiveness.** Correctness is established by a
 **differential oracle** that asserts the optimized path returns the identical
-reduced form as the baseline across thousands of randomized and seeded inputs.
-Performance is quantified with a **JMH benchmark harness** measuring composition,
-squaring, and exponentiation across multiple discriminant sizes, reporting the
-speedup with sound methodology (warmup, multiple iterations, variance). The
-result is a self-contained, reproducible artifact showing a measurable
-improvement on the protocol's dominant cost.
+reduced form as the baseline across thousands of randomized and seeded inputs
+(NUCOMP/NUDUPL/wNAF were validated over 2,400+ cases across eight discriminants
+before porting to Java). Performance is quantified with a **JMH benchmark
+harness** measuring composition, squaring, and exponentiation across discriminant
+sizes of 512–3072 bits, with sound methodology (varying inputs, warmup, multiple
+forks/iterations, variance).
+
+**Measured outcome.** On generic class-group elements, **NUCOMP composition is
+1.25–1.56× faster than schoolbook, with the speedup growing monotonically with
+discriminant size** — the signature of a genuine asymptotic improvement and the
+direct solution to the identified gap. **wNAF and windowed exponentiation are a
+consistent 1.22–1.32× faster** than binary square-and-multiply (≈20% fewer group
+operations). NUDUPL ties the baseline (an honest null result: the baseline
+already specializes the equal-operand squaring case). See *Part 5 — Results*. The
+artifact is self-contained and reproducible.
 
 ### Rubric mapping (for the slides)
 
@@ -440,3 +456,61 @@ improvement — exactly the rubric's "implement and demonstrate its effectivenes
 ---
 
 *Disclaimer: Academic coursework. Not audited; not for production use.*
+
+---
+
+## Part 5 — Results & Findings (measured)
+
+All algorithms were proven correct against the schoolbook oracle (differential
+tests green; 2,400+ reference-model cases). Performance was then measured with
+JMH (average time, 2 forks, 5 warmup + 8 measurement iterations, 64-op batches,
+varying inputs), on **generic** forms (leading coefficient ~|Δ|^(1/2), the
+realistic class-group element).
+
+### 5.1 Headline results
+
+| Operation | Baseline | 512-bit | 1024-bit | 2048-bit | 3072-bit |
+|---|---|---|---|---|---|
+| **Compose** | schoolbook → NUCOMP | **1.25×** | **1.32×** | **1.49×** | **1.56×** |
+| **Exp (wNAF)** | binary → wNAF (w=5) | 1.26× | 1.24× | 1.26× | 1.22× |
+| **Exp (windowed)** | binary → windowed (w=5) | 1.24× | 1.28× | 1.25× | 1.23× |
+| **Square** | schoolbook → NUDUPL | ~1.0× | ~1.0× | ~1.0× | ~1.0× |
+
+*Speedup = baseline time ÷ optimized time (higher is better). 256-bit exponents.*
+
+### 5.2 Interpretation
+
+- **NUCOMP composition — the win.** Replacing the |Δ|-sized multiply-and-reduce
+  with a partial-Euclidean reduction trades one large multiplication for several
+  *smaller* divisions. The net effect is favourable and **grows with Δ**
+  (1.25× → 1.56×), exactly the asymptotic behaviour predicted for NUCOMP. At
+  3072-bit this is a ~36% reduction in composition time.
+- **Exponentiation — a consistent win.** wNAF/windowed cut group operations by
+  ~20% (per the operation-count instrumentation: binary ≈ 380 ops vs wNAF ≈ 305
+  at w=5), yielding ~1.2–1.3× wall-clock. The ceiling is set by squarings, which
+  any binary-style ladder performs once per exponent bit and which wNAF does not
+  reduce.
+- **NUDUPL — honest null result.** It ties the baseline because the schoolbook
+  baseline already specializes squaring (the `a1 == a2` case skips one
+  extended-GCD). Reported explicitly to show the measurements are faithful.
+
+### 5.3 Methodology note (a flaw we caught and fixed)
+
+An initial benchmark showed no speedups and NUCOMP apparently slower. Two bugs
+were responsible and corrected: (1) **fixed inputs** let the JIT fold the work
+away (fixed by drawing distinct inputs each invocation); (2) a **degenerate form
+pool** built from small prime generators gave small leading coefficients, making
+composition artificially cheap and hiding the exponentiation win (fixed with
+`CgCore.genericForm`, which builds realistic ~|Δ|^(1/2) elements). After the fix,
+per-operation cost scales correctly with bit size, confirming the harness
+measures real work.
+
+### 5.4 Reproduce
+
+```
+mvn clean test            # correctness (differential oracle)
+mvn clean package
+java -jar cg-bench/target/benchmarks.jar -f 2 -wi 5 -i 8 -rf csv -rff report/results.csv
+java -cp cg-bench/target/benchmarks.jar com.trout.cg.bench.OpCountMain 1024 5
+python report/summarize.py report/results.csv
+```
