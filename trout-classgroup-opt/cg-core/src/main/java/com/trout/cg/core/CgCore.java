@@ -184,6 +184,32 @@ public final class CgCore {
         }
     }
 
+    /**
+     * A GENERIC form whose leading coefficient is ~ |D|^(1/2) (a prime form on a
+     * large random prime). These are the realistic class-group elements; using
+     * them in benchmarks makes compose and square comparably sized (a small-a
+     * pool makes compose artificially cheap and hides exponentiation speedups).
+     * The returned form is valid but NOT reduced — reduce it with your GroupOps.
+     */
+    public static Bqf genericForm(BigInteger delta, java.util.Random rng) {
+        int bits = Math.max(8, delta.abs().divide(BigInteger.valueOf(3)).sqrt().bitLength());
+        while (true) {
+            BigInteger p = new BigInteger(bits, rng).setBit(0);     // odd, ~bits
+            if (p.compareTo(TWO) <= 0 || !p.isProbablePrime(20)) continue;
+            if (delta.mod(p).signum() == 0) continue;
+            if (!legendreIsResidue(delta, p)) continue;
+            BigInteger b = tonelli(delta.mod(p), p);
+            if (b == null) continue;
+            if (!b.testBit(0)) b = b.add(p);                        // make b odd
+            BigInteger twoP = p.shiftLeft(1);
+            b = b.mod(twoP);
+            if (b.compareTo(p) > 0) b = b.subtract(twoP);           // into (-p, p]
+            BigInteger fourP = FOUR.multiply(p);
+            BigInteger num = b.multiply(b).subtract(delta);
+            if (num.mod(fourP).signum() == 0) return new Bqf(p, b, num.divide(fourP));
+        }
+    }
+
     // ---- fixed-width big-endian encoding (canonical, NOT java.io.Serializable) ----
 
     /** Unsigned big-endian, left-padded/validated to exactly len bytes. */

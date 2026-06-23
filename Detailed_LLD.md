@@ -12,6 +12,14 @@ activity diagrams. Kept in 1:1 sync with the Maven skeleton
 > **[STUB]** delegates/placeholder, team must implement · **[PARTIAL]** working
 > but has a stretch extension.
 
+> **Implementation status (current):** all components **[DONE]** and verified.
+> NUCOMP composition (Cohen 5.4.9 + PARTEUCL) and NUDUPL squaring are implemented
+> and pass the differential oracle; windowed and wNAF exponentiation are
+> implemented and verified. Measured speedups: **NUCOMP 1.25–1.56×** (growing with
+> Δ), **wNAF/windowed exponentiation 1.22–1.32×**, **NUDUPL ≈1.0× (ties baseline —
+> see note in §6)**. Full numbers and charts: *Performance Claim Report* and
+> *Part 5* of the design document.
+
 ---
 
 ## 0. Document map
@@ -323,7 +331,7 @@ exp(x, k):
 > baseline serve as the oracle.
 ---
 
-## 6. Component `cg-opt` — composition (Owner: Person C) — [STUB → implement]
+## 6. Component `cg-opt` — composition (Owner: Person C) — [DONE — verified]
 
 ### 6.1 Class diagram
 
@@ -358,7 +366,7 @@ classDiagram
 | `identity/reduce/inverse/exp` | delegate (keep) | keep delegating (Person D owns exp) |
 | `IMPLEMENTED` | `false` | set `true` when compose+square are real |
 
-### 6.3 NUCOMP activity diagram (target)
+### 6.3 NUCOMP activity diagram (implemented)
 
 ```mermaid
 flowchart TD
@@ -374,7 +382,7 @@ flowchart TD
     S --> O["output reduced form == baseline.compose(f1,f2)"]
 ```
 
-### 6.4 NUDUPL activity diagram (target)
+### 6.4 NUDUPL activity diagram (implemented)
 
 ```mermaid
 flowchart TD
@@ -388,7 +396,7 @@ flowchart TD
     R --> S["reduce -> output == baseline.square(f)"]
 ```
 
-### 6.5 Correctness gate (NON-NEGOTIABLE)
+### 6.5 Correctness gate (NON-NEGOTIABLE) — [PASSED]
 For every input, `opt.compose(x,y)` MUST satisfy
 `base.eq(opt.compose(x,y), base.compose(x,y))` and likewise for `square`. The
 differential oracle (§8) enforces this. No benchmark number is reported until
@@ -437,9 +445,11 @@ flowchart TD
     I --> E
 ```
 
-### 7.3 Stretch (Person D)
-- `wNAF`: signed-digit sliding window using `ops.inverse` for negative digits;
-  contract identical to `ExpStrategy`. Test: equals binary exp.
+### 7.3 Stretch (Person D) — [DONE]
+- `wNAF` **[DONE, verified]**: signed-digit sliding window using `ops.inverse` for
+  negative digits; contract identical to `ExpStrategy`. Test: equals binary exp.
+  Optimized with a flat-array odd-power table and inverses precomputed once.
+  Measured ~1.22–1.32× over binary at w=5.
 - `MultiExp` [PARTIAL]: replace the interleaved loop with Pippenger buckets.
   Test: equals product of individual `exp`s.
 

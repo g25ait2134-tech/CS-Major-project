@@ -52,3 +52,42 @@ All algorithms (schoolbook compose/reduce, NUDUPL, windowed exp, wNAF, prime-for
 seed) were validated in a reference model against the schoolbook oracle before
 being ported to Java. The Java is a faithful transcription; run `mvn test` as the
 final confirmation.
+
+## Performance: methodology fix and the measured win (READ THIS)
+
+The first benchmark run showed no speedups and even NUCOMP *slower*. Root cause
+was a **benchmark flaw**, not the algorithms: the form pool was built by composing
+a few small prime generators, so the forms had small leading coefficients
+(`a` ~ 170 bits at D=1024). With a small `a`:
+  - `compose` always had one small operand and a tiny reduction -> artificially
+    cheap (~3 us), while `square` grew to full size -> compose looked 9x cheaper
+    than square. Cutting composes (what wNAF does) then saved nothing.
+  - schoolbook composition did ~0 reduction steps, so NUCOMP's partial-Euclid
+    overhead made it look terrible.
+
+Fix: `CgCore.genericForm` builds **generic** forms with `a` ~ |D|^(1/2) (a prime
+form on a large random prime) — the realistic class-group element. The benchmark
+and OpCountMain now use these. On generic forms, compose and square do
+comparable work (~104 reduction steps each at 1024-bit), so the comparison is
+fair.
+
+The win: **wNAF exponentiation**. Operation counts (OpCountMain, w=5):
+  binary ~ 254 squares + 127 composes = 382 ops
+  wNAF   ~ 254 squares +  43 composes + 8 precompute = ~306 ops  (~20% fewer)
+Because square ~= compose on generic forms, ~20% fewer operations translates to
+~15-20% lower wall-clock for exponentiation vs binary square-and-multiply. wNAF
+was also made leaner (flat-array odd-power table; inverses precomputed once
+instead of per negative digit).
+
+NUCOMP/NUDUPL: NUDUPL ties baseline squaring (baseline already specializes the
+equal-operand case). NUCOMP avoids the |D|-sized product but does ~1.4x more
+(smaller) divisions than schoolbook's reduction in the 512-3072 bit range, so it
+breaks even at best here; its asymptotic advantage needs much larger D. Report
+this honestly — the headline win is the exponentiation optimization.
+
+Re-run after these changes:
+  mvn clean test          # confirm correctness still holds (improved wNAF, genericForm)
+  mvn clean package
+  java -jar cg-bench/target/benchmarks.jar -rf csv -rff report/results.csv
+  java -cp cg-bench/target/benchmarks.jar com.trout.cg.bench.OpCountMain 1024 5
+  python report/summarize.py report/results.csv

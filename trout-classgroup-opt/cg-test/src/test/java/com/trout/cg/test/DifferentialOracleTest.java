@@ -53,8 +53,11 @@ class DifferentialOracleTest {
             for (int j = 0; j < steps; j++) cur = base.compose(cur, gens.get(r.nextInt(gens.size())));
             forms.add(cur);
         }
+        // also add GENERIC forms (leading coeff ~ |D|^(1/2)) to exercise the
+        // NUCOMP z>0 partial-reduction path and wNAF on realistic elements.
+        java.util.Random fr = new java.util.Random(2024);
+        for (int i = 0; i < 20; i++) forms.add(base.reduce(CgCore.genericForm(D, fr)));
     }
-
     @Test void compositionMatchesBaseline() {
         Random r = new Random(1);
         for (int i = 0; i < 500; i++) {
