@@ -12,12 +12,12 @@ prove equivalence with a differential oracle, and benchmark with JMH.
 
 | Module | What it is | Owner | Status |
 |---|---|---|---|
-| `cg-core` | `Bqf`, `GroupOps`, discriminant/form generators, partial-GCD, encoding helpers | A | implemented |
-| `cg-baseline` | Schoolbook compose/reduce/exp — the correctness oracle | B | **implemented & verified** |
-| `cg-opt` | NUCOMP compose [DONE], NUDUPL squaring [DONE], windowed+wNAF exp [DONE] | C, D | all verified vs baseline oracle |
-| `cg-test` | Differential oracle + property/edge tests | E | implemented |
-| `cg-bench` | JMH benchmark harness | F | implemented |
-| `report/` | plotting + analysis (not a Maven module) | F | implemented |
+| `cg-core` | `Bqf`, `GroupOps`, discriminant/form generators, partial-GCD, encoding helpers | G25AIT2134 | implemented |
+| `cg-baseline` | Schoolbook compose/reduce/exp — the correctness oracle | G25AIT2134 | **implemented & verified** |
+| `cg-opt` | NUCOMP compose [DONE], NUDUPL squaring [DONE], windowed+wNAF exp [DONE] | G25AIT2134 | all verified vs baseline oracle |
+| `cg-test` | Differential oracle + property/edge tests | G25AIT2134 | implemented |
+| `cg-bench` | JMH benchmark harness | G25AIT2134 | implemented |
+| `report/` | plotting + analysis (not a Maven module) | G25AIT2134 | implemented |
 
 ## Build & test
 
@@ -29,25 +29,25 @@ mvn clean package       # also builds cg-bench/target/benchmarks.jar
 ## Run the benchmark (the "demonstrate effectiveness" deliverable)
 
 ```bash
-java -jar cg-bench/target/benchmarks.jar -rf csv -rff report/results.csv
-python report/plot_results.py report/results.csv   # needs matplotlib
+java -jar cg-bench/target/benchmarks.jar -f 2 -wi 5 -i 8 -rf csv -rff report/results.csv
+python3 report/plot_results.py report/results.csv   # needs matplotlib
 ```
 
 ## What the team implements (the actual work)
 
 The build is GREEN from day one because `NucompGroupOps` temporarily delegates to
-the baseline. The graded contribution is to replace those delegations:
+the baseline:
 
-1. **Person C — `cg-opt/NucompGroupOps`:** implement real `compose` (**NUCOMP**)
+1. **G25AIT2134 — `cg-opt/NucompGroupOps`:** implement real `compose` (**NUCOMP**)
    and `square` (**NUDUPL**) using `CgCore.partialEuclid` and the bound
    `L = CgCore.floorRootFour(|D|)`. References: Cohen, *A Course in Computational
    Algebraic Number Theory* (Alg. 5.4.7 / 5.4.8); Jacobson & van der Poorten,
    *Computational aspects of NUCOMP* (ANTS 2002). Then set `IMPLEMENTED = true`.
-2. **Person D — exponentiation:** wNAF and Pippenger multi-exp on top of the
+2. **G25AIT2134 — exponentiation:** wNAF and Pippenger multi-exp on top of the
    working `WindowedExp` / `MultiExp`.
-3. **Person A:** confirm `partialEuclid` returns exactly what your NUCOMP tail needs.
-4. **Person E:** keep the differential oracle green as NUCOMP lands (it is the proof).
-5. **Person F:** run JMH across sizes, generate charts, write the report.
+3. **G25AIT2134:** confirm `partialEuclid` returns exactly what your NUCOMP tail needs.
+4. **G25AIT2134:** keep the differential oracle green as NUCOMP lands (it is the proof).
+5. **G25AIT2134:** run JMH across sizes, generate charts, write the report.
 
 The differential oracle passing + the benchmark printing the speedup together
 ARE the rubric's "implement the proposed solution and demonstrate its
