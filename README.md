@@ -16,7 +16,7 @@ prove equivalence with a differential oracle, and benchmark with JMH.
 | `cg-baseline` | Schoolbook compose/reduce/exp — the correctness oracle | G25AIT2134 | **implemented & verified** |
 | `cg-opt` | NUCOMP compose [DONE], NUDUPL squaring [DONE], windowed+wNAF exp [DONE] | G25AIT2134 | **all verified vs baseline oracle** |
 | `cg-test` | Differential oracle + property/edge tests | G25AIT2134 | **implemented** |
-| `cg-bench` | JMH benchmark harness | G25AIT2134 | ***implemented** |
+| `cg-bench` | JMH benchmark harness | G25AIT2134 | **implemented** |
 | `report/` | plotting + analysis (not a Maven module) | G25AIT2134 | **implemented** |
 
 ## Build & test
