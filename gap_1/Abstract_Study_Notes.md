@@ -1,24 +1,3 @@
-# Study Notes — Understanding the Abstract
-### A plain-language companion for the team (and for presenting confidently)
-
-These notes decode every concept in the project abstract. No cryptography
-background assumed. Read top-to-bottom once; keep the glossary handy for the
-presentation Q&A.
-
----
-
-## 1. The one-sentence version
-
-> We took the slowest, most-repeated math operation that the Trout signature
-> protocol depends on, re-implemented it with a smarter algorithm, and proved
-> (a) it still gives the right answer and (b) it runs faster.
-
-Everything else in the abstract is just making that sentence precise.
-
----
-
-## 2. The abstract, decoded piece by piece
-
 ### "Threshold ECDSA lets a group of parties jointly produce a standard ECDSA signature without any single party ever holding the private key."
 
 - **ECDSA** is the ordinary digital-signature scheme used everywhere (TLS,
@@ -39,8 +18,6 @@ Everything else in the abstract is just making that sentence precise.
 
 ### "...by building its machinery over class groups of imaginary quadratic fields."
 
-This is the part that sounds scary. Plain version:
-
 - A **group** in math is just *a set of things plus one operation* for combining
   two of them into a third (like multiplication on numbers). Cryptography runs
   on groups.
@@ -53,9 +30,6 @@ This is the part that sounds scary. Plain version:
   particular class groups come from. You don't need the field theory to work on
   the project — you need the group's *elements* and its *operation*, which are
   very concrete (next section).
-
-**Analogy:** a class group is a "playground" for crypto where the equipment is
-already safely installed and nobody had to be trusted to install it.
 
 ### "...the majority of its runtime is spent in class-group arithmetic — composing and squaring binary quadratic forms..."
 
@@ -77,13 +51,8 @@ Here's the concrete heart of the project:
 - **Reduction** = shrinking a form to its **canonical smallest representative**.
   Every group element can be written many ways; the *reduced* form is the one
   agreed-upon standard version.
-  **Analogy:** reducing the fraction `6/8` down to `3/4`. Same value, tidiest form.
-- The **schoolbook / Gauss** method is the obvious textbook way: **combine first
-  (which makes big ugly numbers), then reduce at the end.** Working with those
-  big intermediate numbers is what makes it slow — big-integer multiplication
-  cost grows fast with size.
 
-**This is the gap / limitation we identified:** the naive method wastes work on
+- **This is the gap / limitation we identified:** the naive method wastes work on
 oversized intermediate numbers.
 
 ### "...we implement NUCOMP and NUDUPL, which interleave a partial extended-Euclidean step to keep operands bounded near |Δ|^(1/4)..."
@@ -108,8 +77,6 @@ This is our proposed fix:
   number. NUCOMP keeps intermediate values near that fourth-root size instead of
   the full size, which is precisely why it's faster.
 
-**Analogy:** schoolbook = multiply two huge numbers out in full, then simplify.
-NUCOMP = simplify *as you go* so you never write down the huge number at all.
 
 ### "Correctness is established by a differential oracle..."
 
@@ -119,9 +86,6 @@ NUCOMP = simplify *as you go* so you never write down the huge number at all.
   produce the identical reduced form.** The baseline is the trusted reference (the
   "oracle") that tells us whether the fast version is correct.
 - We do this on thousands of inputs, including tricky edge cases.
-
-**Analogy:** testing a new fast calculator by checking its answers against an old
-trusted slow one. If they ever disagree, the fast one has a bug.
 
 **Why this matters:** a fast-but-wrong algorithm is worthless. Correctness must
 be proven *before* any speed claim is believed.
@@ -138,85 +102,12 @@ be proven *before* any speed claim is believed.
   smart algorithm pays off most.
 - **Speedup** = baseline time ÷ optimized time (e.g. "2.3× faster").
 
-**This is the "demonstrate effectiveness" deliverable the rubric asks for:** the
+- **This is the "demonstrate effectiveness" deliverable the rubric asks for:** the
 benchmark printing the before/after numbers *is* the evidence.
 
 ---
 
-## 3. Glossary (quick reference for Q&A)
-
-| Term | Plain meaning |
-|---|---|
-| ECDSA | The standard digital signature scheme (TLS, Bitcoin). |
-| Threshold signature | Key split across parties; need *t* of them to sign; no one holds the whole key. |
-| Round | One synchronized message exchange between parties. Fewer = better. |
-| Trusted setup | A risky one-time secret bootstrap some schemes need; Trout avoids it. |
-| Group (math) | A set + one operation to combine two elements into a third. |
-| Class group | A group whose *size is hard to compute* → security with no trusted setup. |
-| Discriminant (Δ) | The fixed number defining which class group; its size = security level. |
-| Binary quadratic form `(a,b,c)` | Three integers = the "coordinates" of one group element. |
-| Composition | The group operation ("multiply" two forms → a third form). |
-| Squaring | Composing a form with itself. |
-| Reduction | Shrinking a form to its unique canonical smallest version (like reducing a fraction). |
-| Schoolbook / Gauss | The naive "combine then reduce" method (slow on big intermediates). |
-| NUCOMP / NUDUPL | Smart composition / squaring that stays small throughout (faster). |
-| Euclidean algorithm | Ancient GCD-by-repeated-division method. |
-| Partial extended-Euclidean | Run it, tracking coefficients, but stop early once numbers are small — NUCOMP's core trick. |
-| `|Δ|^(1/4)` | Fourth root of the discriminant; the small size bound NUCOMP maintains. |
-| Differential oracle | Test: run baseline + optimized on same inputs, assert equal results. |
-| JMH | Java Microbenchmark Harness — the correct way to time Java code. |
-| Speedup | Baseline time ÷ optimized time. |
-
----
-
-## 4. If a grader asks... (anticipated questions)
-
-**"Isn't NUCOMP already known? What's your contribution?"**
-Correct — NUCOMP is an established algorithm, and mature libraries use it. Our
-contribution is a *controlled, reproducible Java before/after measurement*: a
-clean schoolbook baseline and a NUCOMP/NUDUPL version behind the same interface,
-proven equivalent by a differential oracle and benchmarked rigorously. We're
-quantifying the gain on the protocol's bottleneck, not claiming we invented the
-algorithm. (Stating this honestly is a strength, not a weakness.)
-
-**"Why optimize arithmetic instead of the protocol?"**
-Because the arithmetic is where ~all the runtime goes. Optimizing the bottleneck
-is the highest-leverage, most self-contained improvement — and it satisfies the
-assignment's "implement that part alone."
-
-**"How do you know your fast version is correct?"**
-The differential oracle: thousands of random + edge-case inputs where the
-optimized result must exactly equal the trusted baseline's reduced form.
-
-**"Why class groups at all? Why not elliptic curves like normal ECDSA?"**
-Class groups give the homomorphic encryption + commitments Trout needs *without a
-trusted setup*. The final signature is still ordinary ECDSA on an elliptic curve;
-the class-group machinery is the threshold scaffolding around it.
-
-**"Why does the speedup depend on discriminant size?"**
-Bigger Δ → bigger numbers → schoolbook's oversized intermediates hurt more →
-NUCOMP's size-bounding helps more. So we sweep sizes to show *where* it matters.
-
----
-
-## 5. The 30-second elevator pitch (for the intro slide)
-
-> Trout is a way for several parties to jointly sign with ECDSA without anyone
-> holding the whole key, built on "class group" math that needs no trusted setup.
-> That math's workhorse is one operation — composing quadratic forms — run
-> thousands of times per signature, so it's the performance bottleneck. The
-> textbook method wastes effort on oversized intermediate numbers. We implement
-> the NUCOMP/NUDUPL algorithms, which keep the numbers small throughout, prove
-> our version matches a reference implementation exactly, and benchmark the
-> speedup across security levels.
-
----
-
-*Companion to: ClassGroup_Optimization_Design.md (Abstract · Architecture · HLD · LLD).*
-
----
-
-## What we actually found (plain language)
+## What we actually found
 
 After implementing and **proving correct** all three optimizations, we measured them:
 
@@ -231,15 +122,3 @@ After implementing and **proving correct** all three optimizations, we measured 
 - **NUDUPL (fast squaring) tied the baseline.** Honest result: our baseline
   already had a shortcut for squaring, so there was nothing left for NUDUPL to
   speed up. We report this openly — it shows we measured rather than guessed.
-
-**One thing worth telling the examiner:** our first benchmark showed *no* speedups
-because of a measurement bug (we were timing the same fixed inputs, and using
-unrealistically small numbers). We caught it, fixed the benchmark to use realistic
-inputs, and the real wins appeared. That "we found and fixed our own benchmark
-flaw" story is a strength, not a weakness.
-
-### One-line pitch
-> "We replaced the protocol's schoolbook class-group composition with NUCOMP and
-> its binary exponentiation with wNAF, proved both bit-for-bit correct against the
-> baseline, and measured a 1.25–1.56× composition speedup (growing with key size)
-> and a steady ~1.25× exponentiation speedup."

@@ -6,8 +6,6 @@
 **Language / tooling:** Java 17+, Maven multi-module, JUnit 5, JMH (Java Microbenchmark Harness)
 **Team:** 6 members
 
-> Diagrams below are written in Mermaid and render directly in VS Code with the Mermaid plugin.
-
 ---
 
 ## Part 1 — Abstract
@@ -57,17 +55,6 @@ consistent 1.22–1.32× faster** than binary square-and-multiply (≈20% fewer 
 operations). NUDUPL ties the baseline (an honest null result: the baseline
 already specializes the equal-operand squaring case). See *Part 5 — Results*. The
 artifact is self-contained and reproducible.
-
-### Rubric mapping (for the slides)
-
-| Rubric step | Where it lives |
-|---|---|
-| Analyze the problem | §Part 1, §Part 2 (context diagram) |
-| Understand the paper's solution | §Part 1 (Trout overview) |
-| Identify the gap / limitation | §Part 1 "Identified gap" |
-| Propose your own solution | §Part 1 "Proposed solution", §Part 3 HLD |
-| Implement + demonstrate effectiveness | §Part 4 LLD, differential oracle + JMH benchmarks |
-| Team contributions | §Architecture module ownership table |
 
 ---
 
@@ -447,11 +434,11 @@ improvement — exactly the rubric's "implement and demonstrate its effectivenes
 
 ### 4.9 `<<ref>>` checklist (resolve before coding dependents)
 
-- [ ] Discriminant generation conditions (cg-core).
-- [ ] Reduction canonical-sign rules (cg-baseline / cg-test).
-- [ ] Schoolbook composition formulas, Cohen 5.4.7 (cg-baseline).
-- [ ] NUCOMP post-loop formulas + bound `L` (cg-opt).
-- [ ] NUDUPL formulas (cg-opt).
+- [x] Discriminant generation conditions (cg-core).
+- [x] Reduction canonical-sign rules (cg-baseline / cg-test).
+- [x] Schoolbook composition formulas, Cohen 5.4.7 (cg-baseline).
+- [x] NUCOMP post-loop formulas + bound `L` (cg-opt).
+- [x] NUDUPL formulas (cg-opt).
 
 ---
 

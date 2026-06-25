@@ -26,16 +26,16 @@ activity diagrams. Kept in 1:1 sync with the Maven skeleton
 
 | Section | Component | Owner |
 |---|---|---|
-| §2 | Conventions & global contracts | all |
-| §3 | Inter-component interaction model | all |
-| §4 | `cg-core` | A |
-| §5 | `cg-baseline` | B |
-| §6 | `cg-opt` (NUCOMP/NUDUPL) | C |
-| §7 | `cg-opt` (exponentiation) | D |
-| §8 | `cg-test` | E |
-| §9 | `cg-bench` + `report/` | F |
-| §10 | End-to-end sequences | all |
-| §11 | Error model, invariants, threading | all |
+| §2 | Conventions & global contracts | G25AIT2134 |
+| §3 | Inter-component interaction model | G25AIT2134 |
+| §4 | `cg-core` | G25AIT2134 |
+| §5 | `cg-baseline` | G25AIT2134 |
+| §6 | `cg-opt` (NUCOMP/NUDUPL) | G25AIT2134 |
+| §7 | `cg-opt` (exponentiation) | G25AIT2134 |
+| §8 | `cg-test` | G25AIT2134 |
+| §9 | `cg-bench` + `report/` | G25AIT2134 |
+| §10 | End-to-end sequences | G25AIT2134 |
+| §11 | Error model, invariants, threading | G25AIT2134 |
 
 ---
 
@@ -166,7 +166,7 @@ not-yet-written `compose/square` while the project stays green.
 
 ---
 
-## 4. Component `cg-core` (Owner: Person A)
+## 4. Component `cg-core` (Owner: G25AIT2134)
 
 ### 4.1 Class diagram
 
@@ -250,7 +250,7 @@ flowchart TD
 
 ---
 
-## 5. Component `cg-baseline` (Owner: Person B) — [DONE]
+## 5. Component `cg-baseline` (Owner: G25AIT2134 — [DONE]
 
 ### 5.1 Class diagram
 
@@ -331,7 +331,7 @@ exp(x, k):
 > baseline serve as the oracle.
 ---
 
-## 6. Component `cg-opt` — composition (Owner: Person C) — [DONE — verified]
+## 6. Component `cg-opt` — composition (Owner: G25AIT2134) — [DONE — verified]
 
 ### 6.1 Class diagram
 
@@ -405,7 +405,7 @@ the gate is green. **References:** Cohen *CCANT* Alg. 5.4.7 (NUCOMP) / 5.4.8
 
 ---
 
-## 7. Component `cg-opt` — exponentiation (Owner: Person D)
+## 7. Component `cg-opt` — exponentiation (Owner: G25AIT2134)
 
 ### 7.1 Class diagram
 
@@ -455,7 +455,7 @@ flowchart TD
 
 ---
 
-## 8. Component `cg-test` (Owner: Person E)
+## 8. Component `cg-test` (Owner: G25AIT2134)
 
 ### 8.1 Class diagram
 
@@ -524,7 +524,7 @@ sequenceDiagram
 
 ---
 
-## 9. Component `cg-bench` + `report/` (Owner: Person F)
+## 9. Component `cg-bench` + `report/` (Owner: G25AIT2134)
 
 ### 9.1 Class diagram
 
