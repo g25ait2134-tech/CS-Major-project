@@ -1,5 +1,8 @@
 This Repo consists implementation of two gaps identified
 
+G25AIT2134-- Trout Class-Group Arithmetic Optimization
+G25AIT2009-- Fixed-Iteration Binary GCD Candidate for Timing-Leakage Study
+
 # Trout Class-Group Arithmetic Optimization (Java)
 
 A focused, self-contained study: optimize the **class-group composition /
