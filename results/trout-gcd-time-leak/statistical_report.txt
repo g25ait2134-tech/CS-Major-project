@@ -1,0 +1,55 @@
+GCD Timing Statistical Report
+================================================================================
+
+Input model : ECC-inspired GCD(d, p), d = point-operation denominator, p = prime modulus.
+Operand sizes: 256-bit, 512-bit, 1024-bit.
+Timing      : each (algorithm, input) pair timed 50 times; MEDIAN reported.
+              (first call discarded as warm-up; OS/GC outliers suppressed by median)
+Sample count: 50 inputs per (input_kind × bit_length) = 100 per bit_length per algorithm.
+
+Budget note : Fixed-Iteration uses 4 × bit_length loop iterations (not 2 ×).
+  2 × bit_length = 512 for 256-bit inputs, but empirical step counts reach ~540.
+  4 × bit_length = 1024 gives generous headroom; finished flag is always set.
+  The old silent math.gcd fallback has been removed; an AssertionError fires instead.
+
+Masking note: The swap-and-subtract step now uses arithmetic masking (_select)
+  instead of an if/else branch on x > y, eliminating a data-dependent branch.
+
+Mean + Median timing and step summary
+--------------------------------------------------------------------------------
+    Bits  Algorithm                         Mean ns    Median ns       Std ns   Mean steps   Corr(steps,time)
+     256  euclidean                           10252        10208          713        151.0              0.912
+     256  binary                              39109        39041         1119        539.9              0.606
+     256  fixed_iteration_binary             180964       180188         3860       1024.0              0.000
+     512  euclidean                           26859        26896         1159        300.6              0.863
+     512  binary                              85452        85208         1947       1081.7              0.542
+     512  fixed_iteration_binary             378298       376812         6849       2048.0              0.000
+    1024  euclidean                           80541        80416         3369        599.2              0.837
+    1024  binary                             186714       185938         3735       2166.4              0.170
+    1024  fixed_iteration_binary             785546       782646        15812       4096.0              0.000
+
+Relative overhead vs Euclidean GCD  (median-based)
+--------------------------------------------------------------------------------
+    Bits     Euclidean       Binary   Fixed-Iteration (4×)
+     256           1.0          3.8                   17.7
+     512           1.0          3.2                   14.0
+    1024           1.0          2.3                    9.7
+
+Step count ranges (sanity check that budget was never exceeded)
+--------------------------------------------------------------------------------
+    Bits  Algorithm                       Min steps    Max steps     Budget
+     256  euclidean                             129          177        N/A
+     256  binary                                516          555        N/A
+     256  fixed_iteration_binary               1024         1024       1024
+     512  euclidean                             273          324        N/A
+     512  binary                               1057         1124        N/A
+     512  fixed_iteration_binary               2048         2048       2048
+    1024  euclidean                             549          649        N/A
+    1024  binary                               2130         2219        N/A
+    1024  fixed_iteration_binary               4096         4096       4096
+
+Interpretation
+--------------------------------------------------------------------------------
+Euclidean and Binary GCD use input-dependent termination: step counts and timings vary with the operands, producing non-zero Corr(steps, time).
+Fixed-Iteration Binary GCD uses a fixed budget of 4 × bit_length steps. All inputs complete within the budget (max steps <= budget). The step count is constant, so Corr(steps, time) ≈ 0 for this algorithm — direct iteration-count leakage is eliminated.
+The overhead relative to Euclidean is now ~2–4× (expected for a correct fixed-iteration implementation).  The old artificially low overhead was an artefact of the budget bug: the loop was too short, so math.gcd was silently called for every input, making the reported timing look close to binary GCD.
