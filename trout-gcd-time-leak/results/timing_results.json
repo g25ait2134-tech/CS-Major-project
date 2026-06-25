@@ -1,0 +1,8102 @@
+[
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 0,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 144,
+    "time_ns": 10208
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 0,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 528,
+    "time_ns": 39708
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 0,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 180833
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 1,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 149,
+    "time_ns": 10458
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 1,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 531,
+    "time_ns": 40542
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 1,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 182458
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 2,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 160,
+    "time_ns": 10875
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 2,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 535,
+    "time_ns": 39250
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 2,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 180583
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 3,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 143,
+    "time_ns": 9375
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 3,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 540,
+    "time_ns": 38417
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 3,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 177750
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 4,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 129,
+    "time_ns": 8792
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 4,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 543,
+    "time_ns": 39125
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 4,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 180000
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 5,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 157,
+    "time_ns": 10541
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 5,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 535,
+    "time_ns": 38083
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 5,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 180625
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 6,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 147,
+    "time_ns": 10208
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 6,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 550,
+    "time_ns": 41833
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 6,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 188666
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 7,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 137,
+    "time_ns": 9792
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 7,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 538,
+    "time_ns": 41042
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 7,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 191708
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 8,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 151,
+    "time_ns": 10708
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 8,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 553,
+    "time_ns": 41500
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 8,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 187083
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 9,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 152,
+    "time_ns": 10333
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 9,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 551,
+    "time_ns": 39625
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 9,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 179125
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 10,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 136,
+    "time_ns": 9167
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 10,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 555,
+    "time_ns": 39792
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 10,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 181500
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 11,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 155,
+    "time_ns": 10167
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 11,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 539,
+    "time_ns": 38667
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 11,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 178708
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 12,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 147,
+    "time_ns": 9833
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 12,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 552,
+    "time_ns": 39875
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 12,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 182458
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 13,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 152,
+    "time_ns": 9917
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 13,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 530,
+    "time_ns": 37917
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 13,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 172500
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 14,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 157,
+    "time_ns": 10458
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 14,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 537,
+    "time_ns": 38792
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 14,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 178875
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 15,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 155,
+    "time_ns": 10458
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 15,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 546,
+    "time_ns": 39125
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 15,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 178250
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 16,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 155,
+    "time_ns": 10666
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 16,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 525,
+    "time_ns": 37500
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 16,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 177459
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 17,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 154,
+    "time_ns": 10458
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 17,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 531,
+    "time_ns": 38250
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 17,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 177125
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 18,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 147,
+    "time_ns": 10041
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 18,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 535,
+    "time_ns": 38292
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 18,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 180625
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 19,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 151,
+    "time_ns": 10416
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 19,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 529,
+    "time_ns": 38042
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 19,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 176458
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 20,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 139,
+    "time_ns": 9375
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 20,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 553,
+    "time_ns": 39916
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 20,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 178541
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 21,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 146,
+    "time_ns": 9750
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 21,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 555,
+    "time_ns": 39875
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 21,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 180375
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 22,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 141,
+    "time_ns": 9416
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 22,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 540,
+    "time_ns": 38541
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 22,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 176125
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 23,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 139,
+    "time_ns": 9292
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 23,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 550,
+    "time_ns": 39291
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 23,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 182042
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 24,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 155,
+    "time_ns": 10333
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 24,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 545,
+    "time_ns": 39292
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 24,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 180458
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 25,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 150,
+    "time_ns": 9833
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 25,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 554,
+    "time_ns": 39750
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 25,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 181708
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 26,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 143,
+    "time_ns": 10041
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 26,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 540,
+    "time_ns": 41083
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 26,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 190041
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 27,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 155,
+    "time_ns": 11334
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 27,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 549,
+    "time_ns": 42000
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 27,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 190625
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 28,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 166,
+    "time_ns": 12000
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 28,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 539,
+    "time_ns": 41166
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 28,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 186583
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 29,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 154,
+    "time_ns": 10500
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 29,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 540,
+    "time_ns": 38459
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 29,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 179416
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 30,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 157,
+    "time_ns": 10416
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 30,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 543,
+    "time_ns": 39042
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 30,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 180833
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 31,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 167,
+    "time_ns": 11541
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 31,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 539,
+    "time_ns": 38291
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 31,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 175875
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 32,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 158,
+    "time_ns": 10458
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 32,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 545,
+    "time_ns": 38916
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 32,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 177541
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 33,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 162,
+    "time_ns": 10875
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 33,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 533,
+    "time_ns": 38291
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 33,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 178458
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 34,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 156,
+    "time_ns": 10458
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 34,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 527,
+    "time_ns": 37459
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 34,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 181250
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 35,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 162,
+    "time_ns": 10625
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 35,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 527,
+    "time_ns": 37708
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 35,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 178667
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 36,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 157,
+    "time_ns": 10584
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 36,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 542,
+    "time_ns": 39000
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 36,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 180417
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 37,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 147,
+    "time_ns": 10000
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 37,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 531,
+    "time_ns": 37792
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 37,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 177541
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 38,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 149,
+    "time_ns": 10042
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 38,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 542,
+    "time_ns": 38917
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 38,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 179458
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 39,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 176,
+    "time_ns": 11791
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 39,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 545,
+    "time_ns": 39041
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 39,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 179875
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 40,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 159,
+    "time_ns": 10417
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 40,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 524,
+    "time_ns": 37500
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 40,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 179500
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 41,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 148,
+    "time_ns": 10000
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 41,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 541,
+    "time_ns": 38666
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 41,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 179667
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 42,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 132,
+    "time_ns": 8667
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 42,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 524,
+    "time_ns": 37583
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 42,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 177833
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 43,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 160,
+    "time_ns": 10375
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 43,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 553,
+    "time_ns": 39416
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 43,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 189875
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 44,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 156,
+    "time_ns": 11375
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 44,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 524,
+    "time_ns": 39875
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 44,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 187417
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 45,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 159,
+    "time_ns": 11375
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 45,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 532,
+    "time_ns": 40875
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 45,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 189666
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 46,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 155,
+    "time_ns": 10458
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 46,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 547,
+    "time_ns": 39000
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 46,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 178750
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 47,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 148,
+    "time_ns": 9834
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 47,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 549,
+    "time_ns": 39125
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 47,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 178667
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 48,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 150,
+    "time_ns": 10208
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 48,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 540,
+    "time_ns": 38834
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 48,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 179333
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 49,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 144,
+    "time_ns": 9750
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 49,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 553,
+    "time_ns": 39292
+  },
+  {
+    "bits": 256,
+    "input_kind": "addition_denominator",
+    "sample_id": 49,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 181500
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 0,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 141,
+    "time_ns": 9416
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 0,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 545,
+    "time_ns": 39041
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 0,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 180875
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 1,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 145,
+    "time_ns": 9417
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 1,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 536,
+    "time_ns": 38125
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 1,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 180542
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 2,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 157,
+    "time_ns": 10583
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 2,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 548,
+    "time_ns": 39125
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 2,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 180167
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 3,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 140,
+    "time_ns": 9166
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 3,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 527,
+    "time_ns": 37708
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 3,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 179166
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 4,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 161,
+    "time_ns": 11000
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 4,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 548,
+    "time_ns": 39375
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 4,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 180833
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 5,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 159,
+    "time_ns": 10459
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 5,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 538,
+    "time_ns": 38417
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 5,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 179750
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 6,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 159,
+    "time_ns": 10542
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 6,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 516,
+    "time_ns": 36875
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 6,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 176417
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 7,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 146,
+    "time_ns": 9667
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 7,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 522,
+    "time_ns": 37084
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 7,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 175208
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 8,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 139,
+    "time_ns": 9375
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 8,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 546,
+    "time_ns": 38792
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 8,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 181291
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 9,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 144,
+    "time_ns": 9666
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 9,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 523,
+    "time_ns": 37417
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 9,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 179209
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 10,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 148,
+    "time_ns": 10083
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 10,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 548,
+    "time_ns": 39833
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 10,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 182542
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 11,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 167,
+    "time_ns": 11416
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 11,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 535,
+    "time_ns": 39167
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 11,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 180083
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 12,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 151,
+    "time_ns": 10084
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 12,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 546,
+    "time_ns": 38916
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 12,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 176625
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 13,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 131,
+    "time_ns": 8917
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 13,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 550,
+    "time_ns": 40125
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 13,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 188000
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 14,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 175,
+    "time_ns": 12500
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 14,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 531,
+    "time_ns": 39917
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 14,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 185875
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 15,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 140,
+    "time_ns": 10292
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 15,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 555,
+    "time_ns": 42584
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 15,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 189750
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 16,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 142,
+    "time_ns": 10041
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 16,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 536,
+    "time_ns": 40458
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 16,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 185917
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 17,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 159,
+    "time_ns": 11500
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 17,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 538,
+    "time_ns": 40917
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 17,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 180208
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 18,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 149,
+    "time_ns": 10250
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 18,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 526,
+    "time_ns": 38167
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 18,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 178125
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 19,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 146,
+    "time_ns": 9750
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 19,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 544,
+    "time_ns": 38958
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 19,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 178334
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 20,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 158,
+    "time_ns": 10708
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 20,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 539,
+    "time_ns": 38292
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 20,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 180333
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 21,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 155,
+    "time_ns": 10542
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 21,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 541,
+    "time_ns": 38792
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 21,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 179125
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 22,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 157,
+    "time_ns": 10667
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 22,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 547,
+    "time_ns": 40250
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 22,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 181041
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 23,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 154,
+    "time_ns": 10292
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 23,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 544,
+    "time_ns": 38959
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 23,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 179583
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 24,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 129,
+    "time_ns": 8541
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 24,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 537,
+    "time_ns": 38709
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 24,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 177625
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 25,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 142,
+    "time_ns": 9584
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 25,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 536,
+    "time_ns": 38458
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 25,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 175208
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 26,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 149,
+    "time_ns": 10083
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 26,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 548,
+    "time_ns": 39250
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 26,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 183500
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 27,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 145,
+    "time_ns": 10167
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 27,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 529,
+    "time_ns": 38167
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 27,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 185416
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 28,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 144,
+    "time_ns": 9709
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 28,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 547,
+    "time_ns": 40084
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 28,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 179708
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 29,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 147,
+    "time_ns": 10208
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 29,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 542,
+    "time_ns": 38791
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 29,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 180333
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 30,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 157,
+    "time_ns": 10416
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 30,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 542,
+    "time_ns": 38792
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 30,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 181583
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 31,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 142,
+    "time_ns": 9750
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 31,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 535,
+    "time_ns": 38417
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 31,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 179875
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 32,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 164,
+    "time_ns": 11708
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 32,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 540,
+    "time_ns": 40709
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 32,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 188917
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 33,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 148,
+    "time_ns": 10125
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 33,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 550,
+    "time_ns": 41834
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 33,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 190459
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 34,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 152,
+    "time_ns": 10584
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 34,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 542,
+    "time_ns": 39208
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 34,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 181625
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 35,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 158,
+    "time_ns": 10708
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 35,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 546,
+    "time_ns": 39042
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 35,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 178833
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 36,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 159,
+    "time_ns": 10750
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 36,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 537,
+    "time_ns": 38750
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 36,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 178500
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 37,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 152,
+    "time_ns": 10208
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 37,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 540,
+    "time_ns": 39083
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 37,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 184042
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 38,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 145,
+    "time_ns": 9792
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 38,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 538,
+    "time_ns": 38292
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 38,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 178500
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 39,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 177,
+    "time_ns": 11750
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 39,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 544,
+    "time_ns": 39167
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 39,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 183209
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 40,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 147,
+    "time_ns": 10125
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 40,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 536,
+    "time_ns": 38208
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 40,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 179500
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 41,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 153,
+    "time_ns": 10333
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 41,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 554,
+    "time_ns": 39708
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 41,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 182833
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 42,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 152,
+    "time_ns": 9667
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 42,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 522,
+    "time_ns": 37417
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 42,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 177958
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 43,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 144,
+    "time_ns": 9834
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 43,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 534,
+    "time_ns": 38333
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 43,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 176916
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 44,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 148,
+    "time_ns": 10208
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 44,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 542,
+    "time_ns": 39041
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 44,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 179250
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 45,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 165,
+    "time_ns": 11166
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 45,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 551,
+    "time_ns": 39125
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 45,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 179333
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 46,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 138,
+    "time_ns": 9292
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 46,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 545,
+    "time_ns": 39167
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 46,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 181125
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 47,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 149,
+    "time_ns": 10000
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 47,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 542,
+    "time_ns": 39125
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 47,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 180875
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 48,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 153,
+    "time_ns": 10000
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 48,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 525,
+    "time_ns": 37625
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 48,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 181125
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 49,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 152,
+    "time_ns": 10208
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 49,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 552,
+    "time_ns": 39750
+  },
+  {
+    "bits": 256,
+    "input_kind": "doubling_denominator",
+    "sample_id": 49,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 1024,
+    "time_ns": 180333
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 0,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 281,
+    "time_ns": 25375
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 0,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1074,
+    "time_ns": 84083
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 0,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 376625
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 1,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 303,
+    "time_ns": 28416
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 1,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1083,
+    "time_ns": 89458
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 1,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 392792
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 2,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 305,
+    "time_ns": 27000
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 2,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1070,
+    "time_ns": 83250
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 2,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 371333
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 3,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 302,
+    "time_ns": 26708
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 3,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1070,
+    "time_ns": 83375
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 3,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 375041
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 4,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 307,
+    "time_ns": 27209
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 4,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1087,
+    "time_ns": 84458
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 4,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 374500
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 5,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 307,
+    "time_ns": 27834
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 5,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1093,
+    "time_ns": 85791
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 5,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 376250
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 6,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 300,
+    "time_ns": 27500
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 6,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1079,
+    "time_ns": 88625
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 6,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 383666
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 7,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 303,
+    "time_ns": 26791
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 7,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1077,
+    "time_ns": 84583
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 7,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 379125
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 8,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 287,
+    "time_ns": 27208
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 8,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1081,
+    "time_ns": 89250
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 8,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 392209
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 9,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 300,
+    "time_ns": 26750
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 9,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1092,
+    "time_ns": 85958
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 9,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 382375
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 10,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 304,
+    "time_ns": 27084
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 10,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1081,
+    "time_ns": 84000
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 10,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 368208
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 11,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 309,
+    "time_ns": 28709
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 11,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1105,
+    "time_ns": 91625
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 11,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 398250
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 12,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 309,
+    "time_ns": 27792
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 12,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1091,
+    "time_ns": 84666
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 12,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 373750
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 13,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 306,
+    "time_ns": 27333
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 13,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1089,
+    "time_ns": 84917
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 13,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 380291
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 14,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 289,
+    "time_ns": 25375
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 14,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1076,
+    "time_ns": 84208
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 14,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 374250
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 15,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 292,
+    "time_ns": 25166
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 15,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1082,
+    "time_ns": 83958
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 15,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 375625
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 16,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 291,
+    "time_ns": 25833
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 16,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1096,
+    "time_ns": 86042
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 16,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 378541
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 17,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 302,
+    "time_ns": 26917
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 17,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1105,
+    "time_ns": 86041
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 17,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 375708
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 18,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 316,
+    "time_ns": 27875
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 18,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1072,
+    "time_ns": 83417
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 18,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 371666
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 19,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 299,
+    "time_ns": 26208
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 19,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1078,
+    "time_ns": 83541
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 19,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 373333
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 20,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 316,
+    "time_ns": 28667
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 20,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1064,
+    "time_ns": 83459
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 20,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 378083
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 21,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 316,
+    "time_ns": 28667
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 21,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1097,
+    "time_ns": 90000
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 21,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 375292
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 22,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 302,
+    "time_ns": 26541
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 22,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1085,
+    "time_ns": 84875
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 22,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 377667
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 23,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 296,
+    "time_ns": 25958
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 23,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1076,
+    "time_ns": 83875
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 23,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 377792
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 24,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 304,
+    "time_ns": 26208
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 24,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1095,
+    "time_ns": 84792
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 24,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 375666
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 25,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 315,
+    "time_ns": 28125
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 25,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1073,
+    "time_ns": 83959
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 25,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 375458
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 26,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 283,
+    "time_ns": 25208
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 26,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1060,
+    "time_ns": 83375
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 26,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 370958
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 27,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 313,
+    "time_ns": 27125
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 27,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1091,
+    "time_ns": 85500
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 27,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 374792
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 28,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 315,
+    "time_ns": 27458
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 28,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1109,
+    "time_ns": 85416
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 28,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 370667
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 29,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 302,
+    "time_ns": 27000
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 29,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1092,
+    "time_ns": 85708
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 29,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 374542
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 30,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 286,
+    "time_ns": 26875
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 30,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1080,
+    "time_ns": 88459
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 30,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 393833
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 31,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 301,
+    "time_ns": 25833
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 31,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1079,
+    "time_ns": 84333
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 31,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 377708
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 32,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 292,
+    "time_ns": 25667
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 32,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1059,
+    "time_ns": 82042
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 32,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 367500
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 33,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 288,
+    "time_ns": 25333
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 33,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1082,
+    "time_ns": 84667
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 33,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 373625
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 34,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 290,
+    "time_ns": 25042
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 34,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1088,
+    "time_ns": 89834
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 34,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 395417
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 35,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 305,
+    "time_ns": 27916
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 35,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1087,
+    "time_ns": 84458
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 35,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 371625
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 36,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 280,
+    "time_ns": 24541
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 36,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1066,
+    "time_ns": 83875
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 36,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 377708
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 37,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 312,
+    "time_ns": 27166
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 37,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1067,
+    "time_ns": 83542
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 37,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 371416
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 38,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 310,
+    "time_ns": 28083
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 38,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1090,
+    "time_ns": 86084
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 38,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 378416
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 39,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 286,
+    "time_ns": 25667
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 39,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1086,
+    "time_ns": 85125
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 39,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 385000
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 40,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 290,
+    "time_ns": 24875
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 40,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1086,
+    "time_ns": 84625
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 40,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 373458
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 41,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 307,
+    "time_ns": 27667
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 41,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1079,
+    "time_ns": 85917
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 41,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 378958
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 42,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 292,
+    "time_ns": 25958
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 42,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1084,
+    "time_ns": 84292
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 42,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 374792
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 43,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 322,
+    "time_ns": 28417
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 43,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1104,
+    "time_ns": 87708
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 43,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 383292
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 44,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 324,
+    "time_ns": 29167
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 44,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1097,
+    "time_ns": 85500
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 44,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 376458
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 45,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 299,
+    "time_ns": 27000
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 45,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1083,
+    "time_ns": 85833
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 45,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 379209
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 46,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 290,
+    "time_ns": 25625
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 46,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1077,
+    "time_ns": 87875
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 46,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 390750
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 47,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 304,
+    "time_ns": 26792
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 47,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1073,
+    "time_ns": 83833
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 47,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 376666
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 48,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 298,
+    "time_ns": 27333
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 48,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1070,
+    "time_ns": 87375
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 48,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 368875
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 49,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 301,
+    "time_ns": 26583
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 49,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1082,
+    "time_ns": 84834
+  },
+  {
+    "bits": 512,
+    "input_kind": "addition_denominator",
+    "sample_id": 49,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 379875
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 0,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 287,
+    "time_ns": 25292
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 0,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1066,
+    "time_ns": 82958
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 0,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 376917
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 1,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 282,
+    "time_ns": 25666
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 1,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1079,
+    "time_ns": 84875
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 1,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 374458
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 2,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 305,
+    "time_ns": 28042
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 2,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1074,
+    "time_ns": 85375
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 2,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 382250
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 3,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 314,
+    "time_ns": 28209
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 3,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1084,
+    "time_ns": 85875
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 3,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 378625
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 4,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 297,
+    "time_ns": 26833
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 4,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1087,
+    "time_ns": 85458
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 4,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 375917
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 5,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 289,
+    "time_ns": 27083
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 5,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1064,
+    "time_ns": 87666
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 5,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 393333
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 6,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 303,
+    "time_ns": 27041
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 6,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1087,
+    "time_ns": 87500
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 6,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 375625
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 7,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 299,
+    "time_ns": 26792
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 7,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1082,
+    "time_ns": 85542
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 7,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 381333
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 8,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 291,
+    "time_ns": 26625
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 8,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1083,
+    "time_ns": 84333
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 8,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 368209
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 9,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 315,
+    "time_ns": 27917
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 9,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1083,
+    "time_ns": 85375
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 9,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 380458
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 10,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 302,
+    "time_ns": 27375
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 10,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1087,
+    "time_ns": 84375
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 10,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 379333
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 11,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 323,
+    "time_ns": 29125
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 11,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1086,
+    "time_ns": 85958
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 11,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 379292
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 12,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 302,
+    "time_ns": 27791
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 12,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1063,
+    "time_ns": 84667
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 12,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 376250
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 13,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 286,
+    "time_ns": 25000
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 13,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1089,
+    "time_ns": 85333
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 13,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 386000
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 14,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 289,
+    "time_ns": 25416
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 14,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1087,
+    "time_ns": 85291
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 14,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 374458
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 15,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 309,
+    "time_ns": 28333
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 15,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1067,
+    "time_ns": 85583
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 15,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 377250
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 16,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 305,
+    "time_ns": 26458
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 16,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1083,
+    "time_ns": 83833
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 16,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 371625
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 17,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 312,
+    "time_ns": 27709
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 17,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1061,
+    "time_ns": 83083
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 17,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 372042
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 18,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 292,
+    "time_ns": 27208
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 18,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1082,
+    "time_ns": 88625
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 18,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 391667
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 19,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 317,
+    "time_ns": 27542
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 19,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1088,
+    "time_ns": 84833
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 19,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 374209
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 20,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 300,
+    "time_ns": 26750
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 20,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1072,
+    "time_ns": 83416
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 20,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 371083
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 21,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 306,
+    "time_ns": 28417
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 21,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1124,
+    "time_ns": 93042
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 21,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 398792
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 22,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 300,
+    "time_ns": 26583
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 22,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1080,
+    "time_ns": 84375
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 22,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 374250
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 23,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 289,
+    "time_ns": 25958
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 23,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1067,
+    "time_ns": 83375
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 23,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 375042
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 24,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 295,
+    "time_ns": 26042
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 24,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1082,
+    "time_ns": 85542
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 24,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 376583
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 25,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 318,
+    "time_ns": 28500
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 25,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1087,
+    "time_ns": 85333
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 25,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 379459
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 26,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 313,
+    "time_ns": 26959
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 26,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1082,
+    "time_ns": 84166
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 26,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 372416
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 27,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 293,
+    "time_ns": 25541
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 27,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1078,
+    "time_ns": 85667
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 27,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 382542
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 28,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 313,
+    "time_ns": 27750
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 28,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1090,
+    "time_ns": 84166
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 28,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 370833
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 29,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 314,
+    "time_ns": 28792
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 29,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1076,
+    "time_ns": 85500
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 29,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 379209
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 30,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 293,
+    "time_ns": 25291
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 30,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1087,
+    "time_ns": 84750
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 30,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 372791
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 31,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 282,
+    "time_ns": 25167
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 31,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1099,
+    "time_ns": 87083
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 31,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 380916
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 32,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 318,
+    "time_ns": 28375
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 32,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1095,
+    "time_ns": 86750
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 32,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 375083
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 33,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 301,
+    "time_ns": 26875
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 33,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1088,
+    "time_ns": 86667
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 33,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 377792
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 34,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 281,
+    "time_ns": 25666
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 34,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1082,
+    "time_ns": 88000
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 34,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 369333
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 35,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 294,
+    "time_ns": 26333
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 35,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1082,
+    "time_ns": 85625
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 35,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 378875
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 36,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 297,
+    "time_ns": 26958
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 36,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1066,
+    "time_ns": 83667
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 36,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 370584
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 37,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 304,
+    "time_ns": 27125
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 37,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1072,
+    "time_ns": 85625
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 37,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 378750
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 38,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 312,
+    "time_ns": 27750
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 38,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1081,
+    "time_ns": 85417
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 38,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 380041
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 39,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 314,
+    "time_ns": 27958
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 39,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1073,
+    "time_ns": 84250
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 39,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 371292
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 40,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 309,
+    "time_ns": 28333
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 40,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1061,
+    "time_ns": 84000
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 40,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 390541
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 41,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 273,
+    "time_ns": 24125
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 41,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1094,
+    "time_ns": 87042
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 41,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 384583
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 42,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 287,
+    "time_ns": 25542
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 42,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1057,
+    "time_ns": 83541
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 42,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 390625
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 43,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 292,
+    "time_ns": 25292
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 43,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1081,
+    "time_ns": 83708
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 43,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 378709
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 44,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 291,
+    "time_ns": 26250
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 44,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1083,
+    "time_ns": 88541
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 44,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 392375
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 45,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 303,
+    "time_ns": 26750
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 45,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1089,
+    "time_ns": 85375
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 45,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 378792
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 46,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 291,
+    "time_ns": 25834
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 46,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1068,
+    "time_ns": 82709
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 46,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 372875
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 47,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 296,
+    "time_ns": 26417
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 47,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1092,
+    "time_ns": 85083
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 47,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 376708
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 48,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 296,
+    "time_ns": 26334
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 48,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1089,
+    "time_ns": 85333
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 48,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 376959
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 49,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 311,
+    "time_ns": 29167
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 49,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 1073,
+    "time_ns": 88542
+  },
+  {
+    "bits": 512,
+    "input_kind": "doubling_denominator",
+    "sample_id": 49,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 2048,
+    "time_ns": 383666
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 0,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 577,
+    "time_ns": 77459
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 0,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2165,
+    "time_ns": 188834
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 0,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 788042
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 1,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 581,
+    "time_ns": 76666
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 1,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2173,
+    "time_ns": 183958
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 1,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 772292
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 2,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 586,
+    "time_ns": 76792
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 2,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2156,
+    "time_ns": 185041
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 2,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 786375
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 3,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 610,
+    "time_ns": 83292
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 3,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2150,
+    "time_ns": 184459
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 3,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 776125
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 4,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 624,
+    "time_ns": 83250
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 4,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2136,
+    "time_ns": 180875
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 4,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 766208
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 5,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 601,
+    "time_ns": 80333
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 5,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2195,
+    "time_ns": 185000
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 5,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 767458
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 6,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 609,
+    "time_ns": 80958
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 6,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2174,
+    "time_ns": 185875
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 6,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 771834
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 7,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 607,
+    "time_ns": 80167
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 7,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2167,
+    "time_ns": 186917
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 7,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 785625
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 8,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 597,
+    "time_ns": 78500
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 8,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2150,
+    "time_ns": 184375
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 8,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 780834
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 9,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 622,
+    "time_ns": 83958
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 9,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2188,
+    "time_ns": 187875
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 9,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 782708
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 10,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 594,
+    "time_ns": 80250
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 10,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2144,
+    "time_ns": 184916
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 10,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 768708
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 11,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 602,
+    "time_ns": 80708
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 11,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2219,
+    "time_ns": 191084
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 11,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 787125
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 12,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 604,
+    "time_ns": 81458
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 12,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2189,
+    "time_ns": 188667
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 12,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 789667
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 13,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 624,
+    "time_ns": 84209
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 13,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2172,
+    "time_ns": 186583
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 13,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 785166
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 14,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 576,
+    "time_ns": 79291
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 14,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2169,
+    "time_ns": 188166
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 14,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 778041
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 15,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 613,
+    "time_ns": 82750
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 15,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2140,
+    "time_ns": 184167
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 15,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 779750
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 16,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 583,
+    "time_ns": 77208
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 16,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2177,
+    "time_ns": 184667
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 16,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 772625
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 17,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 612,
+    "time_ns": 85875
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 17,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2181,
+    "time_ns": 195584
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 17,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 816667
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 18,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 593,
+    "time_ns": 77166
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 18,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2172,
+    "time_ns": 184208
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 18,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 774209
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 19,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 592,
+    "time_ns": 79750
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 19,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2168,
+    "time_ns": 186792
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 19,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 782042
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 20,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 609,
+    "time_ns": 86166
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 20,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2155,
+    "time_ns": 196042
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 20,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 816333
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 21,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 596,
+    "time_ns": 79708
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 21,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2186,
+    "time_ns": 185083
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 21,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 791625
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 22,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 587,
+    "time_ns": 79042
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 22,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2189,
+    "time_ns": 189458
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 22,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 800083
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 23,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 549,
+    "time_ns": 72958
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 23,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2168,
+    "time_ns": 183583
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 23,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 776208
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 24,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 566,
+    "time_ns": 79958
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 24,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2158,
+    "time_ns": 193042
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 24,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 787083
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 25,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 589,
+    "time_ns": 78375
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 25,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2173,
+    "time_ns": 187000
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 25,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 782250
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 26,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 610,
+    "time_ns": 80958
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 26,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2160,
+    "time_ns": 186250
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 26,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 781291
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 27,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 581,
+    "time_ns": 79958
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 27,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2183,
+    "time_ns": 190000
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 27,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 776209
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 28,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 587,
+    "time_ns": 76458
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 28,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2172,
+    "time_ns": 184166
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 28,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 772375
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 29,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 571,
+    "time_ns": 73250
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 29,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2178,
+    "time_ns": 185334
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 29,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 813000
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 30,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 598,
+    "time_ns": 81500
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 30,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2144,
+    "time_ns": 184208
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 30,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 775916
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 31,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 612,
+    "time_ns": 81500
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 31,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2156,
+    "time_ns": 182542
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 31,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 775667
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 32,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 611,
+    "time_ns": 82083
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 32,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2190,
+    "time_ns": 186750
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 32,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 792542
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 33,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 612,
+    "time_ns": 80625
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 33,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2203,
+    "time_ns": 194375
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 33,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 804625
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 34,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 598,
+    "time_ns": 79333
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 34,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2144,
+    "time_ns": 186541
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 34,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 791500
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 35,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 624,
+    "time_ns": 82209
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 35,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2148,
+    "time_ns": 183292
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 35,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 770292
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 36,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 612,
+    "time_ns": 86083
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 36,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2165,
+    "time_ns": 196792
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 36,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 789083
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 37,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 623,
+    "time_ns": 81791
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 37,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2168,
+    "time_ns": 183792
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 37,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 773958
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 38,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 581,
+    "time_ns": 77875
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 38,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2183,
+    "time_ns": 184583
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 38,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 776417
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 39,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 624,
+    "time_ns": 81708
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 39,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2163,
+    "time_ns": 183291
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 39,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 770708
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 40,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 597,
+    "time_ns": 80041
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 40,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2170,
+    "time_ns": 186334
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 40,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 774250
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 41,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 621,
+    "time_ns": 81917
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 41,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2186,
+    "time_ns": 185167
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 41,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 792792
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 42,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 607,
+    "time_ns": 81125
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 42,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2175,
+    "time_ns": 187834
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 42,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 783542
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 43,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 590,
+    "time_ns": 80000
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 43,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2181,
+    "time_ns": 187708
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 43,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 777375
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 44,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 588,
+    "time_ns": 80250
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 44,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2141,
+    "time_ns": 182583
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 44,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 777959
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 45,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 612,
+    "time_ns": 80792
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 45,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2171,
+    "time_ns": 184291
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 45,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 774542
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 46,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 649,
+    "time_ns": 87875
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 46,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2148,
+    "time_ns": 184958
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 46,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 782333
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 47,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 602,
+    "time_ns": 80500
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 47,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2164,
+    "time_ns": 186458
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 47,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 790334
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 48,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 621,
+    "time_ns": 82875
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 48,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2156,
+    "time_ns": 182709
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 48,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 782333
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 49,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 553,
+    "time_ns": 73500
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 49,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2174,
+    "time_ns": 187125
+  },
+  {
+    "bits": 1024,
+    "input_kind": "addition_denominator",
+    "sample_id": 49,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 784708
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 0,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 624,
+    "time_ns": 84833
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 0,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2130,
+    "time_ns": 189500
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 0,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 779792
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 1,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 601,
+    "time_ns": 81000
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 1,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2166,
+    "time_ns": 186708
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 1,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 779542
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 2,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 576,
+    "time_ns": 78875
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 2,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2151,
+    "time_ns": 185125
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 2,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 793709
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 3,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 592,
+    "time_ns": 78083
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 3,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2199,
+    "time_ns": 189833
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 3,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 800708
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 4,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 582,
+    "time_ns": 77458
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 4,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2168,
+    "time_ns": 186125
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 4,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 787542
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 5,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 599,
+    "time_ns": 81292
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 5,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2156,
+    "time_ns": 192000
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 5,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 775583
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 6,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 567,
+    "time_ns": 77708
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 6,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2176,
+    "time_ns": 187209
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 6,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 783750
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 7,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 629,
+    "time_ns": 94500
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 7,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2163,
+    "time_ns": 183750
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 7,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 767584
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 8,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 591,
+    "time_ns": 77834
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 8,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2173,
+    "time_ns": 187875
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 8,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 838250
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 9,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 626,
+    "time_ns": 83334
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 9,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2181,
+    "time_ns": 188000
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 9,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 789125
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 10,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 613,
+    "time_ns": 82584
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 10,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2181,
+    "time_ns": 187708
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 10,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 818916
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 11,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 603,
+    "time_ns": 78125
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 11,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2196,
+    "time_ns": 186500
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 11,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 785333
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 12,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 603,
+    "time_ns": 80625
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 12,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2188,
+    "time_ns": 185250
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 12,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 785875
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 13,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 611,
+    "time_ns": 81958
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 13,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2165,
+    "time_ns": 183458
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 13,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 776041
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 14,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 578,
+    "time_ns": 77708
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 14,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2164,
+    "time_ns": 186584
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 14,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 787584
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 15,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 590,
+    "time_ns": 77625
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 15,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2161,
+    "time_ns": 183541
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 15,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 772417
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 16,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 561,
+    "time_ns": 74833
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 16,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2157,
+    "time_ns": 185875
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 16,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 774375
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 17,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 607,
+    "time_ns": 83917
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 17,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2139,
+    "time_ns": 190917
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 17,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 767709
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 18,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 569,
+    "time_ns": 75459
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 18,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2146,
+    "time_ns": 185250
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 18,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 768541
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 19,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 619,
+    "time_ns": 82333
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 19,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2163,
+    "time_ns": 183375
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 19,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 783375
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 20,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 617,
+    "time_ns": 81458
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 20,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2149,
+    "time_ns": 182125
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 20,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 777625
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 21,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 620,
+    "time_ns": 87375
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 21,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2173,
+    "time_ns": 195625
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 21,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 853000
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 22,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 598,
+    "time_ns": 81875
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 22,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2135,
+    "time_ns": 200459
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 22,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 825125
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 23,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 604,
+    "time_ns": 81500
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 23,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2154,
+    "time_ns": 185417
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 23,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 783250
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 24,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 583,
+    "time_ns": 77333
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 24,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2144,
+    "time_ns": 182583
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 24,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 775334
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 25,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 586,
+    "time_ns": 78709
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 25,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2156,
+    "time_ns": 183959
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 25,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 770458
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 26,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 583,
+    "time_ns": 77084
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 26,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2178,
+    "time_ns": 184083
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 26,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 797666
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 27,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 629,
+    "time_ns": 83792
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 27,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2171,
+    "time_ns": 188833
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 27,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 788084
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 28,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 595,
+    "time_ns": 78583
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 28,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2177,
+    "time_ns": 183875
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 28,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 780333
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 29,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 580,
+    "time_ns": 77875
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 29,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2155,
+    "time_ns": 185250
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 29,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 782667
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 30,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 582,
+    "time_ns": 77958
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 30,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2154,
+    "time_ns": 186375
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 30,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 787209
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 31,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 632,
+    "time_ns": 88291
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 31,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2158,
+    "time_ns": 192333
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 31,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 811792
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 32,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 597,
+    "time_ns": 82208
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 32,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2173,
+    "time_ns": 186583
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 32,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 774584
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 33,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 609,
+    "time_ns": 83250
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 33,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2142,
+    "time_ns": 184958
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 33,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 782625
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 34,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 609,
+    "time_ns": 82125
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 34,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2154,
+    "time_ns": 185000
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 34,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 784583
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 35,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 590,
+    "time_ns": 78166
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 35,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2172,
+    "time_ns": 184250
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 35,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 786375
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 36,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 578,
+    "time_ns": 77917
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 36,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2181,
+    "time_ns": 187833
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 36,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 786041
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 37,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 559,
+    "time_ns": 75250
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 37,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2182,
+    "time_ns": 187375
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 37,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 784625
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 38,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 607,
+    "time_ns": 79500
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 38,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2177,
+    "time_ns": 185208
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 38,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 775250
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 39,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 607,
+    "time_ns": 81125
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 39,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2162,
+    "time_ns": 186792
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 39,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 770292
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 40,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 597,
+    "time_ns": 80000
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 40,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2175,
+    "time_ns": 184042
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 40,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 807833
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 41,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 590,
+    "time_ns": 78333
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 41,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2171,
+    "time_ns": 184041
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 41,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 769041
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 42,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 604,
+    "time_ns": 81875
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 42,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2160,
+    "time_ns": 186000
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 42,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 792000
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 43,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 580,
+    "time_ns": 78459
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 43,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2166,
+    "time_ns": 186125
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 43,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 784125
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 44,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 622,
+    "time_ns": 85291
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 44,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2159,
+    "time_ns": 185167
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 44,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 774625
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 45,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 604,
+    "time_ns": 83250
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 45,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2156,
+    "time_ns": 192375
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 45,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 814042
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 46,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 615,
+    "time_ns": 85708
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 46,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2170,
+    "time_ns": 199625
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 46,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 823416
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 47,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 604,
+    "time_ns": 81542
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 47,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2168,
+    "time_ns": 186750
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 47,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 808417
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 48,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 599,
+    "time_ns": 77708
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 48,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2149,
+    "time_ns": 181542
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 48,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 770958
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 49,
+    "algorithm": "euclidean",
+    "gcd": 1,
+    "steps": 609,
+    "time_ns": 80000
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 49,
+    "algorithm": "binary",
+    "gcd": 1,
+    "steps": 2161,
+    "time_ns": 182917
+  },
+  {
+    "bits": 1024,
+    "input_kind": "doubling_denominator",
+    "sample_id": 49,
+    "algorithm": "fixed_iteration_binary",
+    "gcd": 1,
+    "steps": 4096,
+    "time_ns": 768666
+  }
+]
