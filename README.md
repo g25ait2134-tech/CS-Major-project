@@ -1,3 +1,5 @@
+This Repo consists implementation of two gaps identified
+
 # Trout Class-Group Arithmetic Optimization (Java)
 
 A focused, self-contained study: optimize the **class-group composition /
@@ -58,3 +60,186 @@ effectiveness."
 The schoolbook composition/reduction and the windowed exponentiation were
 validated (identity, commutativity, associativity, discriminant invariance, and
 windowed==binary exp) before being committed as the reference baseline.
+
+
+# Fixed-Iteration Binary GCD Candidate for Timing-Leakage Study
+
+## Overview
+
+This project is a conceptual and experimental study of timing variation in GCD algorithms used during modular inverse computation. It is motivated by cryptographic settings such as elliptic-curve arithmetic, where point addition and point doubling require modular inversion.
+
+This is **not** a production constant-time cryptographic implementation. It is an educational evaluation of a fixed-iteration execution model.
+
+## Problem Statement
+
+The classical Euclidean GCD algorithm repeatedly computes:
+
+```text
+gcd(a, b) = gcd(b, a mod b)
+```
+
+until:
+
+```text
+b = 0
+```
+
+The number of loop iterations depends on the input values. This causes variable execution time. In cryptographic software, input-dependent timing can create timing side-channel leakage.
+
+In ECC-style modular inversion, the GCD input is usually:
+
+```text
+GCD(denominator, p)
+```
+
+where `p` is the prime modulus and the denominator comes from a point operation:
+
+```text
+Point addition denominator: d = |x2 - x1|
+Point doubling denominator: d = 2*y1
+```
+
+The inverse exists when:
+
+```text
+gcd(d, p) = 1
+```
+
+## Proposed Intuition
+
+The project compares variable-time GCD algorithms with a fixed-iteration Binary GCD candidate.
+
+```text
+Classical GCD
+    -> stops when computation finishes
+    -> variable loop count
+    -> input-dependent timing
+
+Fixed-Iteration Candidate
+    -> runs a fixed number of iterations
+    -> continues with dummy operations after completion
+    -> reduces direct loop-count leakage
+```
+
+For a bit length `k`, the fixed candidate uses:
+
+```text
+N = 2 * k
+```
+
+iterations.
+
+## Project Structure
+
+```text
+gcd_timing_project_v5/
+├── run_all.py
+├── README.md
+├── requirements.txt
+├── src/
+│   ├── variable_gcd.py
+│   ├── binary_gcd.py
+│   ├── constant_time_gcd.py
+│   ├── crypto_inputs.py
+│   ├── timing_harness.py
+│   ├── statistical_analysis.py
+│   ├── visualize.py
+│   └── paper_citations.py
+├── tests/
+│   └── test_correctness.py
+├── results/
+└── plots/
+```
+
+## Input Datasets
+
+Two datasets are used.
+
+### 1. Correctness Dataset
+
+Small integers are used for human-verifiable correctness checks:
+
+```text
+GCD(100, 4)
+GCD(89, 55)
+GCD(1071, 462)
+GCD(48, 18)
+```
+
+### 2. ECC-Inspired Benchmark Dataset
+
+The timing benchmark uses cryptographic-style operands:
+
+```text
+256-bit prime modulus p
+512-bit prime modulus p
+1024-bit prime modulus p
+```
+
+For each size, the code generates denominators resembling ECC point operations:
+
+```text
+d = |x2 - x1|   for point addition
+d = 2*y1        for point doubling
+```
+
+Then each algorithm computes:
+
+```text
+GCD(d, p)
+```
+
+## Algorithms Compared
+
+- Classical Euclidean GCD
+- Variable-Time Binary GCD
+- Fixed-Iteration Binary GCD Candidate
+
+## Running the Project
+
+Create and activate a virtual environment:
+
+```bash
+python3 -m venv csproject
+source csproject/bin/activate
+```
+
+Install requirements:
+
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+Run everything:
+
+```bash
+python run_all.py
+```
+
+## Outputs
+
+Results:
+
+```text
+results/timing_results.json
+results/statistical_report.txt
+```
+
+Plots:
+
+```text
+plots/01_timing_histograms.png
+plots/02_correlation_scatter.png
+plots/03_overhead_comparison.png
+```
+
+## Limitations
+
+The fixed-iteration candidate removes input-dependent loop count, but the implementation is written in Python. Python is not constant-time because of interpreter overhead, dynamic integers, memory allocation, branching, and operating-system scheduling.
+
+Therefore, this work should be described as a **fixed-iteration candidate / intuition**, not a verified constant-time cryptographic solution.
+
+## Future Work
+
+A production-quality implementation should use a formally analyzed constant-time algorithm, such as a Bernstein-Yang SafeGCD-style method implemented in a low-level language with fixed-width arithmetic and constant-time selection primitives.
