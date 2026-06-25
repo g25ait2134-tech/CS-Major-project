@@ -363,7 +363,7 @@ classDiagram
 |---|---|---|
 | `compose(x,y)` | `return fallback.compose(x,y)` | **NUCOMP** using `CgCore.partialEuclid`, bound `L` |
 | `square(x)` | `return fallback.square(x)` | **NUDUPL** (squaring specialization) |
-| `identity/reduce/inverse/exp` | delegate (keep) | keep delegating (Person D owns exp) |
+| `identity/reduce/inverse/exp` | delegate (keep) | keep delegating (G25AIT2134 owns exp) |
 | `IMPLEMENTED` | `false` | set `true` when compose+square are real |
 
 ### 6.3 NUCOMP activity diagram (implemented)
@@ -445,7 +445,7 @@ flowchart TD
     I --> E
 ```
 
-### 7.3 Stretch (Person D) — [DONE]
+### 7.3 Stretch (G25AIT2134) — [DONE]
 - `wNAF` **[DONE, verified]**: signed-digit sliding window using `ops.inverse` for
   negative digits; contract identical to `ExpStrategy`. Test: equals binary exp.
   Optimized with a flat-array odd-power table and inverses precomputed once.
@@ -607,7 +607,7 @@ sequenceDiagram
         O->>B: fallback.compose(x, y)
         B->>B: schoolbook + reduce
         B-->>O: reduced form
-    else IMPLEMENTED == true (after Person C)
+    else IMPLEMENTED == true (after G25AIT2134)
         O->>C: partialEuclid(R0, R1, L)
         C-->>O: truncated remainders
         O->>O: NUCOMP tail + reduce
