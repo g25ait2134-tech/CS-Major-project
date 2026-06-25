@@ -1,7 +1,9 @@
 This Repo consists implementation of two gaps identified
 
-1. **G25AIT2134-- Trout Class-Group Arithmetic Optimization**
-2. **G25AIT2009-- Fixed-Iteration Binary GCD Candidate for Timing-Leakage Study**
+1. **G25AIT2134 -- Trout Class-Group Arithmetic Optimization**
+2. **G25AIT2009 -- Fixed-Iteration Binary GCD Candidate for Timing-Leakage Study**
+
+---
 
 # Trout Class-Group Arithmetic Optimization (Java)
 
@@ -64,185 +66,178 @@ The schoolbook composition/reduction and the windowed exponentiation were
 validated (identity, commutativity, associativity, discriminant invariance, and
 windowed==binary exp) before being committed as the reference baseline.
 
+---
 
-# Fixed-Iteration Binary GCD Candidate for Timing-Leakage Study
+# Fixed-Iteration Binary GCD Candidate for Timing-Leakage Study (Python)
 
-## Overview
+**Owner:** G25AIT2009 — Anil Kumar Das  
+**Folder:** `trout-gcd-time-leak/`
 
-This project is a conceptual and experimental study of timing variation in GCD algorithms used during modular inverse computation. It is motivated by cryptographic settings such as elliptic-curve arithmetic, where point addition and point doubling require modular inversion.
+An implementation-level study of timing leakage in GCD algorithms used during
+modular inversion in Elliptic Curve Cryptography (ECC), motivated by the Trout
+threshold ECDSA protocol (CCS 2025). Compares three GCD algorithms across
+256 / 512 / 1024-bit ECC-inspired operands and demonstrates that a
+fixed-iteration execution strategy with arithmetic masking eliminates the
+iteration-count timing side-channel (Pearson r drops from 0.912 → 0.000).
 
-This is **not** a production constant-time cryptographic implementation. It is an educational evaluation of a fixed-iteration execution model.
-
-## Problem Statement
-
-The classical Euclidean GCD algorithm repeatedly computes:
-
-```text
-gcd(a, b) = gcd(b, a mod b)
-```
-
-until:
-
-```text
-b = 0
-```
-
-The number of loop iterations depends on the input values. This causes variable execution time. In cryptographic software, input-dependent timing can create timing side-channel leakage.
-
-In ECC-style modular inversion, the GCD input is usually:
-
-```text
-GCD(denominator, p)
-```
-
-where `p` is the prime modulus and the denominator comes from a point operation:
-
-```text
-Point addition denominator: d = |x2 - x1|
-Point doubling denominator: d = 2*y1
-```
-
-The inverse exists when:
-
-```text
-gcd(d, p) = 1
-```
-
-## Proposed Intuition
-
-The project compares variable-time GCD algorithms with a fixed-iteration Binary GCD candidate.
-
-```text
-Classical GCD
-    -> stops when computation finishes
-    -> variable loop count
-    -> input-dependent timing
-
-Fixed-Iteration Candidate
-    -> runs a fixed number of iterations
-    -> continues with dummy operations after completion
-    -> reduces direct loop-count leakage
-```
-
-For a bit length `k`, the fixed candidate uses:
-
-```text
-N = 2 * k
-```
-
-iterations.
+> Academic coursework. Not audited; **not for production use.**
 
 ## Project Structure
 
-```text
-gcd_timing_project_v5/
-├── run_all.py
+```
+trout-gcd-time-leak/
+├── run_all.py                   # Full pipeline runner (5 steps)
 ├── README.md
 ├── requirements.txt
 ├── src/
-│   ├── variable_gcd.py
-│   ├── binary_gcd.py
-│   ├── constant_time_gcd.py
-│   ├── crypto_inputs.py
-│   ├── timing_harness.py
-│   ├── statistical_analysis.py
-│   ├── visualize.py
-│   └── paper_citations.py
+│   ├── variable_gcd.py          # Leaky Euclidean GCD (baseline)
+│   ├── binary_gcd.py            # Leaky Binary GCD (second baseline)
+│   ├── constant_time_gcd.py     # Fixed-iteration GCD with _select() masking
+│   ├── crypto_inputs.py         # ECC-inspired operand generator
+│   ├── timing_harness.py        # Collects (time, step_count) pairs
+│   ├── statistical_analysis.py  # Pearson r, Welch t-test, overhead table
+│   ├── visualize.py             # Generates the 3 result plots
+│   └── paper_citations.py       # Maps GCD call sites in the Trout paper
 ├── tests/
-│   └── test_correctness.py
+│   └── test_correctness.py      # Correctness checks against math.gcd
 ├── results/
+│   ├── timing_results.json      # Raw timing data (auto-generated)
+│   └── statistical_report.txt   # Analysis report (auto-generated)
 └── plots/
+    ├── 01_timing_histograms.png     # (auto-generated)
+    ├── 02_correlation_scatter.png   # (auto-generated)
+    └── 03_overhead_comparison.png   # (auto-generated)
 ```
 
-## Input Datasets
+## Prerequisites
 
-Two datasets are used.
+- Python 3.9 or higher
+- `pip` (comes with Python)
 
-### 1. Correctness Dataset
-
-Small integers are used for human-verifiable correctness checks:
-
-```text
-GCD(100, 4)
-GCD(89, 55)
-GCD(1071, 462)
-GCD(48, 18)
-```
-
-### 2. ECC-Inspired Benchmark Dataset
-
-The timing benchmark uses cryptographic-style operands:
-
-```text
-256-bit prime modulus p
-512-bit prime modulus p
-1024-bit prime modulus p
-```
-
-For each size, the code generates denominators resembling ECC point operations:
-
-```text
-d = |x2 - x1|   for point addition
-d = 2*y1        for point doubling
-```
-
-Then each algorithm computes:
-
-```text
-GCD(d, p)
-```
-
-## Algorithms Compared
-
-- Classical Euclidean GCD
-- Variable-Time Binary GCD
-- Fixed-Iteration Binary GCD Candidate
-
-## Running the Project
-
-Create and activate a virtual environment:
+Check your version:
 
 ```bash
-python3 -m venv csproject
-source csproject/bin/activate
+python3 --version
 ```
 
-Install requirements:
+## Setup
+
+### 1. Navigate to the project folder
+
+```bash
+cd trout-gcd-time-leak
+```
+
+### 2. Create the virtual environment
+
+```bash
+python3 -m venv trout-gcd-env
+```
+
+### 3. Activate the virtual environment
+
+**macOS / Linux:**
+```bash
+source trout-gcd-env/bin/activate
+```
+
+**Windows (Command Prompt):**
+```bash
+trout-gcd-env\Scripts\activate.bat
+```
+
+**Windows (PowerShell):**
+```bash
+trout-gcd-env\Scripts\Activate.ps1
+```
+
+You will see `(trout-gcd-env)` at the start of your prompt once active.
+
+### 4. Upgrade pip
 
 ```bash
 pip install --upgrade pip
+```
+
+### 5. Install dependencies
+
+```bash
 pip install -r requirements.txt
 ```
 
-Run everything:
+## Running the Project
+
+### Run the full pipeline (recommended)
 
 ```bash
 python run_all.py
 ```
 
-## Outputs
+This executes all 5 steps in order:
 
-Results:
+| Step | What runs |
+|---|---|
+| 0 / 5 | `paper_citations.py` — where GCD appears in the Trout paper |
+| 1 / 5 | `test_correctness.py` — verify all 3 GCDs match `math.gcd` |
+| 2 / 5 | `timing_harness.py` — collect (time, steps) across 256/512/1024-bit inputs |
+| 3 / 5 | `statistical_analysis.py` — Pearson r, t-test, overhead table |
+| 4 / 5 | `visualize.py` — generate the 3 result plots |
 
-```text
-results/timing_results.json
-results/statistical_report.txt
+Expected output at the end:
+
+```
+====================================================================================================
+PIPELINE COMPLETE
+====================================================================================================
+Results:  results/timing_results.json
+          results/statistical_report.txt
+Plots:    plots/01_timing_histograms.png
+          plots/02_correlation_scatter.png
+          plots/03_overhead_comparison.png
+====================================================================================================
 ```
 
-Plots:
+Total runtime: approximately 2–5 minutes (1024-bit operands are the slowest step).
 
-```text
-plots/01_timing_histograms.png
-plots/02_correlation_scatter.png
-plots/03_overhead_comparison.png
+### Run individual steps
+
+```bash
+python src/paper_citations.py       # Step 0 — Trout paper context
+python tests/test_correctness.py    # Step 1 — correctness validation
+python src/timing_harness.py        # Step 2 — timing experiment
+python src/statistical_analysis.py  # Step 3 — statistical analysis
+python src/visualize.py             # Step 4 — generate plots
+```
+
+## Algorithms Compared
+
+| Algorithm | Iteration count | Pearson r (256-bit) | Overhead vs Euclidean |
+|---|---|---|---|
+| Euclidean GCD | Variable (`~0.71n·log n` avg) | 0.912 — severe leak | 1.0× (baseline) |
+| Binary GCD | Variable | 0.606 — moderate leak | 2–4× |
+| Fixed-Iteration Binary GCD | Fixed (`4 × bit_length`) | **0.000 — eliminated** | 9.7–17.7× |
+
+## Key Results
+
+- Pearson r = **0.000** across all bit-lengths for the fixed-iteration variant — iteration-count timing channel fully eliminated.
+- Overhead decreases with operand size: **17.7× at 256-bit**, **9.7× at 1024-bit**.
+- This primitive-level overhead explains Trout's 252× constant-time slowdown — GCD is called hundreds of times per proof generation step.
+
+## Deactivating the Virtual Environment
+
+```bash
+deactivate
 ```
 
 ## Limitations
 
-The fixed-iteration candidate removes input-dependent loop count, but the implementation is written in Python. Python is not constant-time because of interpreter overhead, dynamic integers, memory allocation, branching, and operating-system scheduling.
+- Python is not hardware constant-time. The `_select()` masking removes the algorithmic branch but Python's big-integer internals introduce residual noise.
+- Microarchitectural effects (cache, branch predictor) are not addressed.
+- For production use, see [Bernstein–Yang SafeGCD](https://eprint.iacr.org/2019/266) implemented in Rust or C with fixed-width integers.
 
-Therefore, this work should be described as a **fixed-iteration candidate / intuition**, not a verified constant-time cryptographic solution.
+## References
 
-## Future Work
-
-A production-quality implementation should use a formally analyzed constant-time algorithm, such as a Bernstein-Yang SafeGCD-style method implemented in a low-level language with fixed-width arithmetic and constant-time selection primitives.
+1. Dahari-Garbian, Nof, Parker. *Trout: Two-Round Threshold ECDSA from Class Groups.* CCS 2025.
+2. Pornin, T. *Optimized Binary GCD for Modular Inversion.* IACR ePrint 2020/972.
+3. Bernstein, Yang. *Fast constant-time gcd computation and modular inversion.* IACR TCHES 2019.
+4. Kocher, P.C. *Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS.* CRYPTO 1996.
